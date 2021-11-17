@@ -146,4 +146,5 @@ The following functionality is completed:
 - [x] Parse has been configured
 - [x] Database has been created using back4app
 
+## Sprint 2 Recap
  
