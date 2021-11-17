@@ -134,4 +134,6 @@ Profile Screen
  
  ## Sprint 1 Recap
  
+ ### Sprint 1 Gif
+ <img src="QuickTrip1.gif" width=600>
  
