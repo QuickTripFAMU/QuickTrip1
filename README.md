@@ -137,3 +137,13 @@ Profile Screen
  ### Sprint 1 Gif
  <img src="QuickTrip1.gif" width=600>
  
+ ## User Stories
+
+The following functionality is completed:
+
+- [x] User can log in account using Parse.
+- [x] The current signed in user is persisted across app restarts.
+- [x] Parse has been configured
+- [x] Database has been created using back4app
+
+ 
