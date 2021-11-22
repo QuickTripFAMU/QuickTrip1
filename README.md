@@ -144,4 +144,8 @@ The following functionality is completed:
 - [x] Database has been created using back4app
 
 ## Sprint 2 Recap
+
+The following functionality is completed:
+
+
  
