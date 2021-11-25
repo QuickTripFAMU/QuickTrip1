@@ -145,7 +145,20 @@ The following functionality is completed:
 
 ## Sprint 2 Recap
 
+## Sprint 2 Gif
+ <img src="QuickTrip2.gif" width=600>
+ 
+ ## User Stories
+
 The following functionality is completed:
+
+- [x] User can register an account with Parse implementation
+- [x] User can review explore screen
+- [x] User can be directed to the details screen
+- [x] Within the details the user can review more information
+
+## Sprint 3 Gif
+
 
 
  
