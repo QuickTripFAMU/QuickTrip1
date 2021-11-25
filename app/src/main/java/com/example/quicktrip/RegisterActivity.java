@@ -32,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnRegister = findViewById(R.id.btnRegister);
 
-
+        // Button Listeners
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,10 +49,7 @@ public class RegisterActivity extends AppCompatActivity {
                 registerUser(user1, password);
 
             }
-
         });
-
-
     }
 
     private void goMainActivity() {
@@ -62,9 +59,8 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void registerUser(String username, String password) {
-
         ParseUser user = new ParseUser();
-        // set Username
+        // set Username and Password
         user.setUsername(username);
         user.setPassword(password);
         user.signUpInBackground(new SignUpCallback() {
@@ -74,7 +70,6 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "Invalid sign up", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
                 ParseUser.logInInBackground(username, password, new LogInCallback() {
                     @Override
                     public void done(ParseUser user, ParseException e) {
@@ -86,7 +81,6 @@ public class RegisterActivity extends AppCompatActivity {
                         goMainActivity();
 
                     }
-
                 });
             }
         });

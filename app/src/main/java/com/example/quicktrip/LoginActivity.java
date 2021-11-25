@@ -37,6 +37,8 @@ public class LoginActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
+
+        // Button Listeners
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,28 +55,17 @@ public class LoginActivity extends AppCompatActivity {
                 goRegisterActivity();
             }
         });
-
-
-
-    }
-
-    private void goRegisterActivity() {
-        Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
-        Toast.makeText(LoginActivity.this, "issue with registration", Toast.LENGTH_SHORT).show();
-        startActivity(i);
-        finish();
     }
 
     private void loginUser(String username, String password) {
         Log.i(TAG, "Attempting to login user" + username);
-
 
         ParseUser.logInInBackground(username, password, new LogInCallback() {
             @Override
             public void done(ParseUser user, ParseException e) {
                 if ( e != null ) {
                     Log.e(TAG, "issue with login", e);
-                    Toast.makeText(LoginActivity.this, "issue with login", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Issue with login", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 //TODO: navigate to the main activity if the user has signed in properly
@@ -84,8 +75,15 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    // Page route functions
     private void goMainActivity() {
         Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
+
+    private void goRegisterActivity() {
+        Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(i);
         finish();
     }

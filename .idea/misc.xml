@@ -10,7 +10,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.38433295292744213" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.29770376701272117" />
         <entry key="app/src/main/res/layout/activity_review.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_slidedetail.xml" value="0.1388888888888889" />
         <entry key="app/src/main/res/layout/actvity_register.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.3453125" />
       </map>
     </option>
   </component>

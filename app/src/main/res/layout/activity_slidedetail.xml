@@ -170,7 +170,7 @@ floor-to-ceiling windows."
                 android:fontFamily="@font/open_sans_extra_bold"
                 android:paddingLeft="50dp"
                 android:paddingRight="50dp"
-                android:text="ADD TO FAVORITES"
+                android:text="WRITE A REVIEW"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
