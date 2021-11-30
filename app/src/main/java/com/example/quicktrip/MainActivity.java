@@ -24,10 +24,7 @@ import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String TRAVEL_SEARCH_URL = "https://travel-advisor.p.rapidapi.com/locations/v2/search?currency=USD&units=km&lang=en_US";
-    public static final String TRAVEL_RESTURANTS_URL = "https://travel-advisor.p.rapidapi.com/restaurants/v2/list?currency=USD&units=km&lang=en_US";
-    public static final String TRAVEL_ATTRACTIONS_URL = "https://travel-advisor.p.rapidapi.com/attractions/v2/list?currency=USD&units=km&lang=en_US";
-    public static final String TRAVEL_HOTEL_URL = "https://travel-advisor.p.rapidapi.com/hotels/v2/list?currency=USD&units=km&lang=en_US";
+
     public static final String TAG = "MainActivity";
     CardView cardView, cardView2, cardView3;
     ImageView imageView;
@@ -75,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent DetailActivity = new Intent(MainActivity.this, DetailActivity.class);
                 startActivity(DetailActivity);
+            }
+        });
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ReviewActivity = new Intent (MainActivity.this, ReviewActivity.class);
+                startActivity(ReviewActivity);
             }
         });
 

@@ -5,12 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable/btn_custom.xml" value="0.14351851851851852" />
         <entry key="app/src/main/res/drawable/et_custom.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.3614583333333333" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2569480181297419" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.38433295292744213" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37197724039829305" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.29770376701272117" />
         <entry key="app/src/main/res/layout/activity_review.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_slidedetail.xml" value="0.1388888888888889" />
+        <entry key="app/src/main/res/layout/activity_slidedetail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/actvity_register.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.3453125" />
       </map>

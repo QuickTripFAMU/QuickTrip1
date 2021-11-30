@@ -31,7 +31,7 @@
         android:layout_marginRight="18dp"
         android:layout_marginTop="420dp"
         android:fontFamily="@font/open_sans_extra_bold"
-        android:text="THE START Hotel, Casino and SkyPod"
+        android:text="The STRAT Hotel, Casino and SkyPod"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
