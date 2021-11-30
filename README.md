@@ -157,7 +157,16 @@ The following functionality is completed:
 - [x] User can be directed to the details screen
 - [x] Within the details the user can review more information
 
-## Sprint 3 Gif
+## Sprint 3/4 Recap
+
+## Sprint 3/4 Gif
+ <img src="QuickTrip3.gif" width=600>
+ 
+ ## User Stories
+
+The following functionality is completed:
+
+- [x] User can navigate to the review screen through the details screen 
 
 
 
